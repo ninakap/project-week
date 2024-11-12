@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Montserrat", sans-serif;
     margin: 0;
     padding: 0;
     background-color: white;
@@ -98,7 +98,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: -270px;
+    margin-top: -173px;
     margin-left: 92px;
 }
 
@@ -135,4 +135,59 @@ button {
     font-size: 1rem;
     cursor: pointer;
     padding: 14px 16px;
+}
+.kracht {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    margin-right: -155px;
+    margin-top: 78px;
+    
+}
+.paragraaf h2{
+    color: #6E6EB4;
+    margin-left: -4px;
+    margin-bottom: -14px;
+}
+
+.paragraaf p{
+    margin-left: 2px;
+    font-size: 19px;
+}
+
+.image-container2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.image-container2 img {
+    width: 475px;
+    height: auto;
+    border-radius: 50%;
+}
+footer {
+    background-color: #65527F;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer-icons a img {
+    width: 35px;
+    height: 35px;
+    margin: 0 10px;
+}
+.imagelogo{
+    width: 15px;
+    height: auto;
+    border-radius: 50%;
+
 }
