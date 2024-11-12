@@ -1,0 +1,138 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    text-align: center;
+}
+
+header {
+    background-color: #A17BA2;
+    padding: 15px 0px;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 113%;
+    align-items: center
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 80px;
+}
+
+
+.nav-links a {
+    color: #401d44;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+    font-family: "Montserrat", sans-serif;
+}
+
+.nav-links a:hover {
+    color: #FFB4D3;
+}
+
+.login {
+    background-color: #CFB6CF;
+    color: #000000;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: left;
+    height: 46px;
+    margin-left: -237px;
+}
+
+.container {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 78px;
+}
+
+
+.card {
+    background-color: #b3e5fc;
+    padding: 99px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 285px;
+    text-align: left;
+}
+
+.left-card h2 {
+    color: #5c2d91;
+    font-size: 1rem;
+}
+
+.left-card h1 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.left-card p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.right-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -270px;
+    margin-left: 92px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.image-container img {
+    width: 311px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.right-section h2 {
+    color: #7D3A76;
+    font-size: 2.3rem;
+    margin: 10px 0;
+    font-weight: bolder;
+}
+
+.right-section p {
+    font-size: 1rem;
+    color: #000;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #b180d7;
+    color: rgb(0, 0, 0);
+    border: 2px solid #c7aae9;
+    border-radius: 21px;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 14px 16px;
+}
