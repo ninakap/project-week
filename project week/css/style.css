@@ -38,6 +38,7 @@ header {
     font-size: 16px;
     transition: color 0.3s;
     font-family: "Montserrat", sans-serif;
+    font-weight: bold;
 }
 
 .nav-links a:hover {
@@ -45,11 +46,16 @@ header {
 }
 
 .login {
-    background-color: #CFB6CF;
+    background-color: #E6DAE6;
+    ;
     color: #000000;
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 35px;
+    margin-right: -187px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: light;
+    border: none;
 
 }
 
@@ -70,26 +76,35 @@ header {
 
 .card {
     background-color: #b3e5fc;
-    padding: 99px;
+    padding: 90px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 285px;
+    width: 249px;
     text-align: left;
 }
 
 .left-card h2 {
     color: #5c2d91;
     font-size: 1rem;
+    margin-left: -66px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
 }
 
 .left-card h1 {
     font-size: 1.5rem;
     margin: 10px 0;
+    margin-left: -67px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
 }
 
 .left-card p {
     font-size: 1rem;
     line-height: 1.5;
+    margin-left: -68px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: light;
 }
 
 .right-section {
@@ -118,41 +133,54 @@ header {
     color: #7D3A76;
     font-size: 2.3rem;
     margin: 10px 0;
-    font-weight: bolder;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+
 }
 
 .right-section p {
     font-size: 1rem;
     color: #000;
     margin: 10px 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: light;
 }
 
-button {
+.interessetest {
     background-color: #b180d7;
     color: rgb(0, 0, 0);
-    border: 2px solid #c7aae9;
+    border: none;
     border-radius: 21px;
     font-size: 1rem;
     cursor: pointer;
     padding: 14px 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
 }
+
 .kracht {
     display: flex;
     justify-content: space-evenly;
     text-align: left;
     margin-right: -155px;
     margin-top: 78px;
-    
-}
-.paragraaf h2{
-    color: #6E6EB4;
-    margin-left: -4px;
-    margin-bottom: -14px;
+
 }
 
-.paragraaf p{
+.paragraaf h2 {
+    color: #6E6EB4;
+    margin-left: -1px;
+    margin-bottom: -14px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+
+}
+
+.paragraaf p {
     margin-left: 2px;
     font-size: 19px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: light;
 }
 
 .image-container2 {
@@ -166,28 +194,95 @@ button {
     height: auto;
     border-radius: 50%;
 }
+
 footer {
-    background-color: #65527F;
-    padding: 20px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    background-color: #6A4A87;
+    padding: 10px 0;
 }
 
 .footer-container {
     display: flex;
+    justify-content: flex-end;
     align-items: center;
-    justify-content: center;
+    gap: 44px;
+    padding-right: 111px;
+}
 
+.footer-container a img,
+.footer-container .logo img {
+    width: 40px;
+    height: 40px;
 }
-.footer-icons a img {
-    width: 35px;
-    height: 35px;
-    margin: 0 10px;
-}
-.imagelogo{
-    width: 15px;
+
+.roclogo img {
+    width: 80px;
     height: auto;
-    border-radius: 50%;
+}
+.opleidingen{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    
+}
+.opleidingen h2 {
+    color: #3F2E56;
+    font-size: 77px;
+    margin-left: -66px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    margin-top: -171px;
+    margin-left: -420px;
+}
+.opleidingen p{
+    margin-left: 114px;
+    font-size: 19px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: light;
+    text-align: left;
+    margin-top: -48px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 60px;
+    border: none;
+    
+}
 
+.button1 {
+    background-color: #FFEE9B;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 31px;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 40px 12px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 540;
+}
+
+.button2 {
+    background-color: #D7FCF4;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 31px;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 40px 12px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 540;
+}
+
+.button3 {
+    background-color: #D86DA0;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 31px;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 40px 12px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 540;
 }
