@@ -136,3 +136,213 @@ button {
     cursor: pointer;
     padding: 14px 16px;
 }
+
+
+/* learn pagina */
+
+.software-developer-container {
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.rectangle {
+
+    background-color: #D4F2F4;
+    width: 400px;
+    height: 70px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #75A1A4;
+    box-shadow: 0px 2px 3px 2px #75A1A4;
+}
+
+.software-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font: size 300px;
+    font-weight: 900;
+    color: #7783C1;
+}
+
+.paragraph-software-development-container {
+
+    width: 650px;
+    height: auto;
+    margin-left: 500px;
+    margin-top: 40px;
+}
+
+.paragraph1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.image-middle {
+    width: 300px;
+    height: 300px;
+}
+
+.paragraph-software-development-container2 {
+    width: 650px;
+    height: auto;
+    margin-left: 500px;
+    margin-top: 40px;
+
+}
+
+.Keuze {
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #7783C1;
+}
+
+.keuze-vakken-card-container {
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.card1 {
+
+    width: 400px;
+    height: 350px;
+    background-color: #D4F2F4;
+    border-radius: 25px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #75A1A4;
+    box-shadow: 0px 2px 3px 2px #a3afaf;
+    margin-right: 20px;
+}
+
+.card2 {
+
+    width: 400px;
+    height: 350px;
+    background-color: #D4F2F4;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #75A1A4;
+    box-shadow: 0px 2px 3px 2px #a3afaf;
+    margin-right: 20px;
+}
+
+.card3 {
+    width: 400px;
+    height: 350px;
+    background-color: #D4F2F4;
+    border-radius: 25px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #75A1A4;
+    box-shadow: 0px 2px 3px 2px #a3afaf;
+}
+
+.rectangle-text {
+    margin-top: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 300;
+    margin-bottom: 20px;
+
+}
+
+.algemene-vakken-conatiner {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+
+.card-paragraph {
+
+    padding: 20px;
+}
+
+.algemene {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #7783C1;
+    margin-bottom: 20px;
+}
+
+
+.under-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.vakken-image {
+    width: 80px;
+    height: 80px;
+    margin-top: 60px;
+}
+
+
+.vak1 {
+    height: auto;
+    width: 500px;
+    margin-right: 50px;
+}
+
+.vak2 {
+    height: auto;
+    width: 560px;
+    
+}
+
+.meer-over {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #7783C1;
+}
+
+.meer-over-paragraph {
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+footer {
+    background-color: #6A4A87;
+    padding: 10px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 44px;
+    padding-right: 111px;
+}
+
+.footer-container a img,
+.footer-container .logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.roclogo img {
+    width: 80px;
+    height: auto;
+} 
