@@ -435,7 +435,7 @@ footer {
     flex-direction: row;
     padding: 60px;
     border: none;
-    
+    margin-left: -121px;
 }
 
 .button1 {
