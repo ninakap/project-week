@@ -799,7 +799,7 @@ footer {
   align-items: center;
   padding: 10px 50px;
   margin-top: 50px;
-  width: 1323px;
+  width: 100%;
 }
 
 .footer-right {
@@ -832,7 +832,7 @@ footer {
   justify-content: flex-end;
   align-items: center;
   gap: 44px;
-  padding-right: 111px;
+  width: 100%;
 }
 
 .footer-container a img,
