@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="images/logo-roc-nijmegen.svg" alt="logo-roc-nijmegenS" />
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html" target="_self">Home</a></li>
+          <li><a href="learn.html" target="_blank">Learn</a></li>
+          <li><a href="contact.html" target="_blank">Contact</a></li>
+        </ul>
+        <button class="login">Login</button>
+      </nav>
+    </header>
+
+    <div class="contact-text">Contact</div>
+    <div class="title-contact">We helpen je graag</div>
+    <div class="vraag-versturen-container">
+      <div class="vraag-versturen"></div>
+    </div>
+    <div class="grote-container-contact">
+      <div class="form-container">
+        <h2>Een onbeantwoorde vraag?</h2>
+        <p>
+          Vul dan het contactformulier in. We nemen zo snel mogelijk contact met
+          je op.
+        </p>
+        <form action="#" method="post">
+          <label for="first-name">Voornaam *</label>
+          <input type="text" id="first-name" name="first-name" required />
+
+          <label for="last-name">Achternaam</label>
+          <input type="text" id="last-name" name="last-name" />
+
+          <label for="email">E-mailadres *</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="phone">Telefoonnummer</label>
+          <p class="phone-info">Zodat we je kunnen bellen als dat nodig is</p>
+          <input type="tel" id="phone" name="phone" />
+
+          <label for="message">Jouw bericht *</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Versturen</button>
+        </form>
+      </div>
+      <div class="telefonisch-container">
+        <h3>
+          We zijn ook telefonisch <br />
+          bereikbaar
+        </h3>
+        <p class="informatie-text">Bel ons via het algemene nummer.</p>
+        <a href="tel:0248904500" class="call-button">
+          <span class="number">024 - 89 04 500</span>
+          <span class="subtitle">Algemeen nummer</span>
+        </a>
+        <img
+          class="hand-stand"
+          src="images/hand-stand 1.png"
+          alt="image-hand-stand"
+        />
+      </div>
+    </div>
+    <form class="container">
+      <a href="#" class="block yellow">ik heb nog geen idee wat ik wil doen</a>
+      <a href="#" class="block mint">ik weet ongeveer wat ik wil doen</a>
+      <a href="#" class="block pink">ik weet precies wat ik wil gaan doen</a>
+    </form>
+
+    <footer class="footer-contact">
+      <div class="footer-right">
+        <div class="icons">
+          <a class="icon youtube" href="#">
+            <img src="images/social-twitter.png" alt="twitter" />
+          </a>
+          <a class="icon twitter" href="#">
+            <img src="images/social-youtube.png" alt="youtube" />
+          </a>
+          <a class="icon calendar" href="#">
+            <img src="images/social-discord.png" alt="discord" />
+          </a>
+        </div>
+      </div>
+      <div class="image-logo">
+        <img src="images/logo-roc-nijmegen.svg" alt="logo-roc-nijmegen" />
+      </div>
+    </footer>
+  </body>
+</html>
