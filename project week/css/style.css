@@ -184,7 +184,7 @@ header {
 .paragraph-software-development-container {
   width: 650px;
   height: auto;
-  margin-left: 500px;
+  margin-left: 400px;
   margin-top: 40px;
 }
 
@@ -201,7 +201,7 @@ header {
 .paragraph-software-development-container2 {
   width: 650px;
   height: auto;
-  margin-left: 500px;
+  margin-left: 400px;
   margin-top: 40px;
 }
 
@@ -304,26 +304,13 @@ header {
     margin-top: 10px;
 }
 
-.vak1 {
-  height: auto;
-  width: 500px;
-  margin-right: 50px;
+.alg-vakken{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #7783c1;
+    font-size: medium;
 }
 
-.vak2 {
-  height: auto;
-  width: 560px;
-}
-
-.meer-over {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 900;
-  color: #7783c1;
-}
-
-.meer-over-paragraph {
-  font-family: Arial, Helvetica, sans-serif;
-}
 
 .stages-container {
   width: 100%;
@@ -331,7 +318,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 50px;
 }
 
 .stage-card {
@@ -343,14 +330,6 @@ header {
   border-style: solid;
   border-color: #a994b6;
   box-shadow: 0px 2px 3px 2px #a28aa6;
-    width: 400px;
-    height: 200px;
-    background-color: #eeddf8;
-    border-radius: 25px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #A994B6;
-    box-shadow: 0px 2px 3px 2px #a28aa6;
     margin-bottom: 80px;
 }
 
